@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Histórico de {{nome}}</title>
+</head>
+<body background="https://image.freepik.com/fotos-gratis/textura-da-tela-azul_1253-76.jpg">
+{% if nome %}
+<center>
+    <font color="white", face="Arial Black">
+<h1>Bem Vindo {{nome}}</h1>
+         {% else %}
+        <h1>Nome não informado</h1>
+        {% endif %}
+        </font>
+    <table border="1">
+        <tr>
+            <th>Matérias</th>
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <td>{{}}</td>
+        </tr>
+
+    </table>
+    </center>
+</body>
+</html>
